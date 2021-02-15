@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: var(--color-darkblue);
+    background-image: linear-gradient( 
+    115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+
+body {
+    background-color: rgba(3, 3, 145, 0.6);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    width:100vw;
+    height:100vh;
+    margin: 0;
+}
+
+
+.survey-form{
+    margin:auto;
+    width:50%;
+    border-radius: 4px;
+    padding: 2.5rem;
+    background-color: rgba(27, 27, 50, 0.8);
+    font-size: 18px;
+}
+
+.title{
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 10px;
+    font-size: 2rem;
+}
+.title-detail{
+    text-align: center;
+    padding-bottom: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+
+
+input {
+    margin-top: 5px;
+}
+
+input #phony, #email, #age, #name{
+    border-radius: 5px;
+    width:100%;
+    height: 30px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.checkbox input{
+    margin-bottom: 10px;
+
+}
+
+select {
+    padding-left: 10px;
+    border-radius: 5px;
+    width:100%;
+    height: 30px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+ textarea {
+    padding-left: 1rem;
+    padding-top: .5rem;
+    border-radius: 5px;
+    width:100%;
+    height: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 5px;
+    margin-bottom: 10px;
+ }
+
+ .reco {
+     margin-bottom: 20px;
+ }
+
+ .favorites {
+     margin-bottom: 10px;
+ }
+
+ .checkbox {
+     margin-bottom: 20px;
+ }
+
+ button {
+    border-radius: 5px;
+    width:100%;
+    height: 40px;
+    background-color: rgb(35, 194, 107);
+    color:white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    border: none;
+
+
+ }
+
